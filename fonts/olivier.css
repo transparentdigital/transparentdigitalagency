@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("olivier.eot");
+	src: url("olivier.eot#iefix") format("embedded-opentype"),
+	url("olivier.woff") format("woff"),
+	url("olivier.ttf") format("truetype"),
+	url("olivier.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+}
+.flaticon-ampersand:before {
+	content: "\26";
+	font-size: 70px;
+	color: #3643e9;
+	font-style: italic;
+}
